@@ -1,10 +1,17 @@
+REM Launch Spotlight
 DELAY 1000
 COMMAND SPACE
-DELAY 500
+DELAY 600
+
+REM Open TextEdit
 STRING TextEdit
 ENTER
-DELAY 1000
-COMMAND n
+DELAY 2000
+
+REM Sometimes TextEdit shows a file dialog—dismiss it
+ESCAPE
 DELAY 500
+
+REM Type the message
 STRING You've been flippered 😎
 ENTER
