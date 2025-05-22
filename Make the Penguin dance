@@ -1,0 +1,5 @@
+DELAY 2000
+CTRL ALT t
+DELAY 1000
+STRING echo "You've been flippered, comrade 🐧"
+ENTER
